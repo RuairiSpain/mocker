@@ -1,0 +1,15 @@
+{
+    "name": "mocks",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "node index.js",
+        "mock": "json-server db.json --static ./mocks --port 3003"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "node-fetch": "^1.7.1"
+    }
+}
